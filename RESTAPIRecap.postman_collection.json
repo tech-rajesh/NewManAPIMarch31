@@ -203,7 +203,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Status code is 204 for Delete request\", function () {\r",
-							"    pm.response.to.have.status(204);\r",
+							"    pm.response.to.have.status(201);\r",
 							"});"
 						],
 						"type": "text/javascript"
